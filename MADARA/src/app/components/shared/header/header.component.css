@@ -1,0 +1,16 @@
+.teg, .text{
+    text-align: center;
+}
+
+.teg{
+    font-size: xx-large;
+    letter-spacing: 7px;
+}
+
+.text{
+    font-size: large;
+}
+
+.page-header{
+    padding-top: 70px;
+}

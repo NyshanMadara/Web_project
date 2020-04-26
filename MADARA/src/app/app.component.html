@@ -1,0 +1,33 @@
+<div class="log" *ngIf="!logged">
+    <p id="login">Login</p>
+    <p id="username"><input type="text" [(ngModel)]="username" placeholder="Username"></p>
+    <p id="password"><input type="password" [(ngModel)]="password" placeholder="Password"></p>
+
+    <button id="btn1" (click)="login()">Login</button> 
+ 
+</div>
+
+<div *ngIf="logged">
+    <div>
+    <app-navbar></app-navbar>
+
+        <button id="btn2" (click)="logout()">Выйти</button>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <app-header></app-header>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:scroll(0,0)" ><i class="material-icons">expand_less</i></a>
+    <app-footer></app-footer>
+</div>
+
+

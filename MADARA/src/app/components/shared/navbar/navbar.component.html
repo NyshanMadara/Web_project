@@ -1,0 +1,59 @@
+<div class="bg-img">
+    <div class="container">
+        <div class="topnav">
+            <a routerLink="/">Главная</a>
+       </div>
+    </div>
+    <div class="text">
+        THE BEST COWORKING <br>SPACES
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MADARA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a routerLink="/business-centers" class="nav-link" href="#">БИЗНЕС-ЦЕНТРЫ <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    РАЗМЕР ОРГАНИЗАЦИИ
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a routerLink="/private-clients" class="dropdown-item" href="#">ЧАСТНЫЕ КЛИЕНТЫ</a>
+                    <a routerLink="/small-business" class="dropdown-item" href="#">МАЛЫЙ БИЗНЕС</a>
+                    <a routerLink="/large-companies" class="dropdown-item" href="#">КРУПНЫЕ КОМПАНИИ</a>
+                   
+                </div>
+            </li>
+
+            <!-- ------------------------------CATEGORIES---------------------------------------------------- -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ПРОДУКТЫ
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a routerLink="/categories/1/products" class="dropdown-item" href="#">КОВОРКИНГ</a>
+                </div>
+                <!-- <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <div *ngFor="let category of categories">
+                        <a routerLink="/categories/{{category.id}}/products" class="dropdown-item">{{category.name}}</a>
+                    </div>
+                 
+                </div> -->
+            </li>
+            <!-- ------------------------------CATEGORIES---------------------------------------------------- -->
+            <li class="nav-item active">
+                <a routerLink="/news" class="nav-link" href="#">МОИ ОБЪЯВЛЕНИЯ <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">СПОНСОРЫ</a>
+            </li>
+        </ul>
+    </div>
+</nav>

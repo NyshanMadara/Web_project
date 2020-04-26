@@ -1,0 +1,97 @@
+#whatsapp,
+#telegram {
+    width: 40px;
+    height: 40px;
+}
+
+#rating {
+    width: 30px;
+    height: 30px;
+}
+
+.photoSize {
+    width: 500px;
+    height: 350px;
+    transition: transform .25s ease;
+}
+
+
+/* ----------------------------------------- */
+
+.first {
+    position: absolute;
+}
+
+.mySlides {
+    display: none;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.0s;
+    animation-name: fade;
+    animation-duration: 2.0s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 2
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 2
+    }
+}
+
+
+/* ----------------------------------------- */
+
+.photoSize:hover {
+    transform: scale(1.05);
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 100px;
+    grid-gap: 80px;
+    padding: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 90px;
+}
+
+a {
+    color: rgb(94, 95, 95);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(237, 116, 111);
+}
+
+.photo1 {
+    float: left;
+    width: 300px;
+}
+
+.context1 {
+    float: right;
+    width: 500px;
+    padding-left: 180px;
+}
+.material-icons{
+    color: rgb(224, 5, 97);
+    font-size: 50px;
+    width: 60px;
+    
+}

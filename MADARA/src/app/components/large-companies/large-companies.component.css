@@ -1,0 +1,222 @@
+.bg-img {
+    /* The image used */
+    background-image: url("https://www.restate.ru/attachment/f61ec12386278a1472aadbcb390d2544c66a3dd9/proportional/1920x1080/1.jpg");
+    min-height: 380px;
+        
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+  .bg-img1 {
+    /* The image used */
+    background-image: url("https://assets.iwgplc.com/image/upload/w_1350,c_fill,f_auto,q_auto/Regus/Website/gen-corporates-banner-2.jpg");
+    min-height: 380px;
+        
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+
+  .bg-img2 {
+    /* The image used */
+    background-image: url("https://omsk-zaim.ru/wp-content/uploads/2019/06/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8-%D1%81-%D0%BC%D0%B0%D1%82-%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D0%BE%D0%BC.jpg");
+    min-height: 380px;
+        
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+
+  .bg-img4{
+    /* The image used */
+    background-color: rgb(211, 22, 22);
+    width: 288px;
+    height: 150px;   
+    margin-top: 30px;
+    margin-left: 12px;
+  }
+  .bg5{
+    /* The image used */
+    background-color: rgb(241, 237, 237);
+    width: 288px;
+    height: 290px;   
+    margin-bottom: 5px;
+    margin-left: 12px;
+  }
+
+  .text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 130px;
+    font-size: 47px;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 30px;
+    
+
+}
+.text1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    width: 100%;
+    line-height: 27px;
+}
+.text2{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    width: 80%;
+    line-height: 27px;
+    margin-left: 30px;
+}
+
+.t-1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: red; /* Цвет линии */
+  color: red; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+  width: 600px;
+ }
+ .t-2{
+   text-align: center;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: cursive;
+   margin-bottom: 70px;
+ }
+ .material-icons{
+  font-size: 60px;
+   color: rgb(230, 76, 127);
+  margin-left: 120px;
+  margin-bottom: 40px;
+ }
+
+ #t-1{
+   margin-left: -6px;
+   font-size: 25px;
+   font-family: Snell Roundhand, cursive;
+   margin-bottom: 35px;
+   text-align: center;
+ }
+ #t-2{
+   width: 90%;
+   text-align: center;
+   margin-left: -10px;
+   color: rgb(112, 111, 111);
+ }
+
+ #t-3{
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Snell Roundhand, cursive;
+  margin-bottom: 35px;
+}
+#t-4{
+  width: 90%;
+  text-align: center;
+  margin-left: -10px;
+  color: rgb(112, 111, 111);
+}
+#t-5{
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Snell Roundhand, cursive;
+  margin-bottom: 35px;
+}
+#t-6{
+  width: 90%;
+  text-align: center;
+  margin-left: -10px;
+  color: rgb(112, 111, 111);
+}
+
+.conteiner{
+  column-count: 3;
+  margin-bottom: 50px;
+}
+
+.conteiner1{
+  column-count: 4;
+  margin-bottom: 50px;
+}
+
+.t2{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+#id{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+#id2{
+  color: red;
+}
+#ic{
+  width: 90%;
+  text-align: center;
+  margin-left: 20px;
+  color: rgb(112, 111, 111);
+}
+#ic2{
+  width: 90%;
+  text-align: center;
+  margin-left: 20px;
+  color: rgb(112, 111, 111);
+  padding-top: 35px;
+}
+
+#ic1{
+  margin-left: 10px;
+   font-size: 25px;
+   font-family: Snell Roundhand, cursive;
+   margin-bottom: 40px;
+   text-align: center;
+}
+
+#ic3{
+    margin-left: 10px;
+     font-size: 25px;
+     font-family: Snell Roundhand, cursive;
+     margin-bottom: 3px;
+     text-align: center;
+  }
+
+  img{
+      width: 342px;
+      margin-left: -14px;
+  }
+
+.cont-1{
+    margin-top: -30px;
+}

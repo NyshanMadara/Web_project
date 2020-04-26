@@ -1,0 +1,17 @@
+<div class="new">МОИ ОБЪЯВЛЕНИЯ</div>
+<button [routerLink]="['/admin']" routerLinkActive="router-link-active" >Редактировать</button>
+<div>
+  <div class="flex-row-container" >
+      <div class="flex-row-item" *ngFor="let new of news" >
+        
+          <a routerLink="/news/{{new.id}}">
+          <img src="{{ new.image }}" appHover>
+           </a>
+        <p class="text">
+          {{ new.description }}
+        </p>
+        
+      </div>
+   </div>
+</div>
+

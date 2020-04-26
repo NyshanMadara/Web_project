@@ -1,0 +1,62 @@
+<footer class="footer">
+    <div class="footer-top">
+      <div class="footer-top-left">
+        <input type="text" class="footer-top-left__email" placeholder="Электронная почта...">
+        <button (click)="showAlert()" class="footer-top-left__submit" type = "submit" >Подписаться</button>
+      </div>
+      <div class="footer-top-right">
+        Самый большой агрегатор коворкингов! 
+        Подпишитесь и будьте в курсе.
+      </div>
+    </div>
+    <div class="footer-main">
+      <div class="footer-main-inform">
+        <h3 class="footer-main-inform__title">О проекте</h3>
+        <p class="footer-main-inform__description">Проект был разработана специльно в рамках предмета Web Development молодыми разработчиками!</p>
+      </div>
+      <div class="footer-main-inform">
+        <h3 class="footer-main-inform__title">Информация</h3>
+        <ul class="footer-main__information">
+          <li class="footer-main__inform__link">
+            <i class="icon-check footer-main__second-icon"></i>
+            <span class="footer-main__second-desc" [routerLink]="['/business-centers']" routerLinkActive="router-link-active" >О нас</span>
+          </li>
+          <li class="footer-main__inform__link">
+            <i class="icon-check footer-main__second-icon"></i>
+            <span class="footer-main__second-desc" [routerLink]="['/privacy-policy']" routerLinkActive="router-link-active">Политика конфиденциальности</span>
+          </li>
+          <li class="footer-main__inform__link">
+            <i class="icon-check footer-main__second-icon"></i>
+            <span class="footer-main__second-desc">Условия и соглашения</span>
+          </li>
+          <li class="footer-main__inform__link">
+            <i class="icon-check footer-main__second-icon"></i>
+            <span class="footer-main__second-desc">Контакты</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-main-inform">
+        <h3 class="footer-main-inform__title">Контактные данные</h3>
+        <p class="footer-main-inform__address">
+          Казахстан, Алматы, Толе би, 59
+        </p>
+        <ul class="footer-inform__contacts">
+          <li class="footer-inform__contact">
+            <i class="footer-inform__third-icon icon-phone"></i>
+            <span class="footer-inform__third-desc">+7 771 795 66 88</span>
+          </li>
+          <li class="footer-inform__contact">
+            <i class="footer-inform__third-icon icon-envelope"></i>
+            <span class="footer-inform__third-desc">madara@OnlineCoworking.com.</span>
+          </li>
+          <li class="footer-inform__contact">
+            <i class="footer-inform__third-icon icon-location4"></i>
+            <span class="footer-inform__third-desc">onlineCoworkingBooking.kz</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <h3 class="footer-bottom__copyright">Все права защищены 2020 madara@OnlineCoworking.com.</h3>
+    </div>
+  </footer>

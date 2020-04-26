@@ -1,0 +1,35 @@
+<button (click)="goBack()" class="knopka"> <i class="material-icons">chevron_left</i></button>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="admin">
+    <form>
+        <div class="title">Admin panel</div>
+        
+        <div class="item">
+             <input type="text" name="description" [(ngModel)]="newModel.description" placeholder="Description">
+        </div>
+                
+        <div class="item">
+            <input type="text" name="image" [(ngModel)]="newModel.image" placeholder="Image">
+        </div>
+        <div class="btn">
+            <div *ngIf="!edit">
+                <button (click)="onCreate()"><i class="material-icons">queue</i></button>
+            </div>
+            <div *ngIf="edit">
+                <button (click)="onEdit()"><i class="material-icons">border_color</i></button>
+            </div>
+        </div>
+    </form>
+    <br>
+    <div>
+        <div *ngFor="let new of news">
+            <div>
+                <hr>
+                <div id="desk">{{new.description}}</div>
+                
+                <button id="btn" (click)="onEditStart(new.id)">Edit</button>
+                <button (click)="onDelete(new.id)"><i class="material-icons">&#xE872;</i></button>
+            </div>
+        </div>
+    </div>
+</div>

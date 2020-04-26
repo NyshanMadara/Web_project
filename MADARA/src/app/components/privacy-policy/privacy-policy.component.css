@@ -1,0 +1,20 @@
+.t-1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.t-2{
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+  hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 710px;
+   }
+.text{
+    padding-bottom: 90px;
+}

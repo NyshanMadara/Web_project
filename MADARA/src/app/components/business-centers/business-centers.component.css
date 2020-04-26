@@ -1,0 +1,78 @@
+.bg-img {
+    /* The image used */
+    background-image: url("https://static.tildacdn.com/tild6537-3530-4663-b930-383263336666/Trend-GS---Rocketo-G.png");
+    min-height: 600px;
+        
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  
+.text{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding-top: 170px;
+    font-size: 47px;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.text1{
+  color: rgb(5, 5, 5);
+  text-align: center;
+  font-size: 44px;
+  width: 100%;
+  line-height: 50px;
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+
+.t-1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.t-3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 300px;
+  }
+hr {
+  border: none; /* Убираем границу */
+  background-color: red; /* Цвет линии */
+  color: red; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+  width: 600px;
+ }
+ .t-2{
+   text-align: center;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: cursive;
+   margin-bottom: 70px;
+ }
+
+#id{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+#id2{
+  color: red;
+}
+.container{
+column-count: 2;
+column-gap: 250px;
+padding-bottom: 150px;
+}
+
+#tols{
+  font-weight: bold;
+}
+

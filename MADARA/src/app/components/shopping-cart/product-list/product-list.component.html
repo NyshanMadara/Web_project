@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="input-field col s6">
+      <label class="active" for="first_name">Поиск</label>
+      <input id="first_name"  class="validate" [(ngModel)]="searchStr">
+    </div>
+</div>
+<div *ngFor="let comment of comments">
+  {{comment.name}}
+</div>
+   
+<div class="flex-row-container">
+  <div class="product-item" appHover *ngFor="let product of products | search: searchStr">
+          <h3>
+            <a [title]="product.name">{{ product.name }}</a>
+          </h3>
+          <a routerLink="/products/{{product.id}}">
+            <img class="photoSize" src="{{ product.image }}">
+        </a>
+          <h4 class="price">${{ product.price }}</h4>
+    
+          <span style="color: red;float:right;font-size: 20px;">
+            &#9733;{{ product.rating }}
+          </span>
+         
+          <div class="share1">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=See%20this!%20url={{product.link}}" data-action="share/whatsapp/share">
+                      <img id="whatsapp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1024px-WhatsApp_logo-color-vertical.svg.png">
+                  </a>
+
+                  <a target="_blank" href="https://t.me/share/url?url={{product.link}}" data-action="share/whatsapp/share">
+                      <img id="telegram" src="https://image.winudf.com/v2/image1/Y29tLndXaGF0c2FwcGpiXzg2MTY3NTRfaWNvbl8xNTUwNzI3OTE1XzA1OA/icon.png?w=170&fakeurl=1">
+                  </a>
+          </div>
+      </div>
+</div>
